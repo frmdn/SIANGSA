@@ -1,0 +1,97 @@
+/* Untuk Menambah Tinggi Navbar */
+ .navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 70px;
+  line-height: 70px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 18px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 21.5px;
+    padding-bottom: 21.5px;
+    line-height: 27px;
+  }
+}
+
+/* Selesai Tambah Tinggi Navbar */
+
+
+/* Homepage Style */
+
+#headerhome {
+	min-height: 90vh;
+	padding: 30px 20px;
+}
+
+#headerhome h1 {
+	color: #fa7600;
+	font-weight: bold;
+}
+
+#berlangganan {
+	min-height: 100vh;
+	padding: 30px 20px;
+	background-color: #fa7600;
+	color: white;
+}
+
+.section-title h1{
+	padding: 20px 0;
+}
+
+#berlangganan img {
+	width: 80%;
+	padding: 50px 0;
+}
+
+#menubawah {
+	padding: 30px 20px;
+	background-color: #1c273b;
+	color: white;
+}
+
+#menubawah img {
+	width: 75%;
+	padding: 10px 0;
+}
+
+#sponsorship {
+	padding: 30px 20px;
+	background-color: #000000;
+	color: white;
+}
+
+#sponsorship img {
+	width: 150px;
+	padding: 20px 10px;
+}
+
+/* End Homepage */
+
+
+/* BLOG PAGE */
+
+#blog {
+	padding: 30px 20px;
+}
+
+#blog .col-sm {
+	padding: 20px 0;
+}
+
+#posthead {
+	height: 40vh;
+	background-color: #fa7600;
+}
+/* END BLOG PAGE */
