@@ -31,6 +31,11 @@ Route::get('/blog', function () {
 Route::get('/post', function () {
 	return view('webpage.post');
 });
+
+Route::get('/dashboard', function () {
+	return view('userdashboard.index');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

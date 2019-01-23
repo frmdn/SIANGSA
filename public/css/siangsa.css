@@ -95,3 +95,26 @@
 	background-color: #fa7600;
 }
 /* END BLOG PAGE */
+
+/* GLOBAL VARIABLE */
+
+.btn.round {
+	border-radius: 24px;
+	padding: 10px 40px;
+	color: white;
+}
+
+
+
+.uli {
+	list-style: none;
+}
+
+.uli li p {
+  padding-left: 60px;
+}
+
+.uli span {
+	position: absolute;
+	line-height: 2rem;
+}
