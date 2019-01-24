@@ -12,38 +12,39 @@
 			</div>
 			<div class="col-sm">
 				<h1>Daftar</h1>
-				<form>
+				<form method="post" action="/daftar">
+					{{ csrf_field() }}
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
+							<div class="input-group-text bg-transparent"><i class="fa fa-id-card"></i></div>
 						</div>
-						<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Nama Lengkap">
+						<input type="text" class="form-control" name="name" placeholder="Nama Lengkap">
 					</div>
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
+							<div class="input-group-text bg-transparent"><i class="fa fa-envelope"></i></div>
 						</div>
-						<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Email">
+						<input type="text" class="form-control" name="email" placeholder="Email">
 					</div>
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
+							<div class="input-group-text bg-transparent"><i class="fa fa-key"></i></div>
 						</div>
-						<input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Password">
+						<input type="password" class="form-control" name="password" placeholder="Password">
 					</div>
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
+							<div class="input-group-text bg-transparent"><i class="fa fa-phone"></i></div>
 						</div>
-						<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="No. Telepon">
+						<input type="text" class="form-control" name="phone" placeholder="No. Telepon">
 					</div>
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
-							<div class="input-group-text">@</div>
+							<div class="input-group-text bg-transparent"><i class="fa fa-users"></i></div>
 						</div>
-						<input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Jumlah Anggota Keluarga">
+						<input type="text" class="form-control" placeholder="Jumlah Anggota Keluarga">
 					</div>
-					<button type="submit" class="btn btn-success btn-block">Lanjutkan</button>
+					<button type="submit" class="btn btn-success btn-block round">Lanjutkan</button>
 				</form>
 			</div>
 		</div>

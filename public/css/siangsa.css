@@ -62,8 +62,13 @@
 }
 
 #menubawah img {
-	width: 75%;
+	width: 60%;
 	padding: 10px 0;
+}
+
+#menubawah li img{
+	width: 2.4rem; 
+	padding-right: 10px;
 }
 
 #sponsorship {
@@ -91,9 +96,10 @@
 }
 
 #posthead {
-	height: 40vh;
+	height: 50vh;
 	background-color: #fa7600;
 }
+
 /* END BLOG PAGE */
 
 /* GLOBAL VARIABLE */

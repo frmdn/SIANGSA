@@ -7,11 +7,11 @@
 		<div class="row">
 			<div class="col-sm text-center">
 				<div>
-					<img src="/img/gbrkomputer.png" style="padding-bottom: 20px;">
+					<img src="/img/gbrkomputer.png" style="padding-bottom: 20px;" class="img-fluid">
 				</div>
 				<div>
-					<a href="/daftar" class="btn btn-success">Daftar</a>
-					<a href="/login" class="btn btn-warning">Masuk</a>
+					<a href="/daftar" class="btn btn-success round">Daftar</a>
+					<a href="/login" class="btn btn-warning round">Masuk</a>
 				</div>
 			</div>
 			<div class="col-sm">
@@ -24,14 +24,14 @@
 				</p>
 				<div class="row">
 					<div class="col-4">
-						<img src="/img/qrcode.png">
+						<img src="/img/qrcode.png" class="img-fluid">
 					</div>
 					<div class="col-8">
 						<p>
 							Scan QR Code disamping untuk mengunduh aplikasi SIANGSA di smartphone Anda,
 							atau dapatkan di Google Play.
 						</p>
-						<img src="/img/gplay.png">
+						<img src="/img/gplay.png" class="img-fluid">
 					</div>
 				</div>
 			</div>

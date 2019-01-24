@@ -4,7 +4,7 @@
 
 <section id="posthead">
 </section>
-<section id="postbody">
+<section id="postbody" class="mt-3 mb-4">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-8">
@@ -43,6 +43,18 @@
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
+				</div>
+				<div class="share-post">
+					<ul style="list-style: none; margin: 0; padding: 0">
+						<li style="display: inline;"><img src="/img/icon/Facebook.png" style="width: 2.8rem; 
+	padding-right: 10px;"></li>
+						<li style="display: inline;"><img src="/img/icon/Twitter.png" style="width: 2.8rem; 
+	padding-right: 10px;"></li>
+						<li style="display: inline;"><img src="/img/icon/Ig.png" style="width: 2.8rem; 
+	padding-right: 10px;"></li>
+						<li style="display: inline;"><img src="/img/icon/Youtube.png" style="width: 2.8rem; 
+	padding-right: 10px;"></li>
+					</ul>
 				</div>
 			</div>
 		</div>
