@@ -7,12 +7,12 @@
 		<div class="row">
 			<div class="col-sm text-center">
 				<div>
-					<img src="/img/gbrkomputer.png" style="padding-bottom: 20px;">
+					<img class="img-fluid" src="img/gbrkomputer.png" style="padding-bottom: 20px;">
 				</div>
 			</div>
 			<div class="col-sm">
 				<h1>Mashook</h1>
-				<form method="post" action="/login"> 
+				<form method="post" action="login"> 
 					{{ csrf_field() }}
 					<div class="input-group mb-2 mr-sm-2">
 						<div class="input-group-prepend">
@@ -30,6 +30,9 @@
 						<a href="#" style="color: #bababa;">Lali password ta ?</a>
 					</div>
 					<button type="submit" class="btn btn-success btn-block round">Masuk</button>
+					<div class="text-center" style="padding: 10px 0">
+						Belum terdaftar di SIANGSA? <a href="/daftar" class="text-warning font-weight-bold">nDaftar.</a>
+					</div>
 				</form>
 			</div>
 		</div>

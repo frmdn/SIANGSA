@@ -1,27 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body, html {
+	font-family: 'Lato', sans-serif;
+}
+
 /* Untuk Menambah Tinggi Navbar */
- .navbar {
-  min-height: 70px;
+.navbar {
+	min-height: 70px;
+}
+
+.navbar {
+	-webkit-box-shadow: 0 8px 6px -6px #eee;
+	-moz-box-shadow: 0 8px 6px -6px #eee;
+	box-shadow: 0 8px 6px -6px #eee;
+
+	/* the rest of your styling */
 }
 
 .navbar-brand {
-  padding: 0 15px;
-  height: 70px;
-  line-height: 70px;
+	padding: 0 15px;
+	height: 70px;
+	line-height: 70px;
 }
 
 .navbar-toggle {
-  /* (80px - button height 34px) / 2 = 23px */
-  margin-top: 18px;
-  padding: 9px 10px !important;
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 18px;
+	padding: 9px 10px !important;
 }
 
 @media (min-width: 768px) {
-  .navbar-nav > li > a {
-    /* (80px - line-height of 27px) / 2 = 26.5px */
-    padding-top: 21.5px;
-    padding-bottom: 21.5px;
-    line-height: 27px;
-  }
+	.navbar-nav > li > a {
+		/* (80px - line-height of 27px) / 2 = 26.5px */
+		padding-top: 21.5px;
+		padding-bottom: 21.5px;
+		line-height: 27px;
+	}
 }
 
 /* Selesai Tambah Tinggi Navbar */
@@ -29,8 +43,16 @@
 
 /* Homepage Style */
 
+@media (min-width: 768px) {
+	#headerhome {
+		/*min-height: 80vh;*/
+		margin: 70px 0px;
+		padding: 30px 20px;
+	}
+}
+
 #headerhome {
-	min-height: 90vh;
+	/*min-height: 90vh;*/
 	padding: 30px 20px;
 }
 
@@ -40,8 +62,8 @@
 }
 
 #berlangganan {
-	min-height: 100vh;
-	padding: 30px 20px;
+	/*min-height: 100vh;*/
+	padding: 50px 20px;
 	background-color: #fa7600;
 	color: white;
 }
@@ -71,16 +93,29 @@
 	padding-right: 10px;
 }
 
+.supporter {
+	max-width: 100px;
+	margin: 5px 5px;
+}
+
+#sosmed {
+	padding: 20px;
+	background-color: #fa7600;
+	color: white;
+}
+
+#sosmed li img{
+	width: 3.3rem; 
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
 #sponsorship {
-	padding: 30px 20px;
+	padding: 10px;
 	background-color: #000000;
 	color: white;
 }
 
-#sponsorship img {
-	width: 150px;
-	padding: 20px 10px;
-}
 
 /* End Homepage */
 
@@ -117,10 +152,39 @@
 }
 
 .uli li p {
-  padding-left: 60px;
+	padding-left: 60px;
 }
 
 .uli span {
 	position: absolute;
 	line-height: 2rem;
 }
+
+hr {
+	border:none;
+	border-top:2px dashed #fa7600;
+	color:#fff;
+	background-color:#fff;
+	height:1px;
+	width:50%;
+}
+
+.box-shadows {
+	-webkit-box-shadow: -6px 3px 8px 0px #eee;
+	-moz-box-shadow: -6px 3px 8px 0px #eee;
+	box-shadow: -6px 3px 8px 0px #eee;
+
+	/* the rest of your styling */
+}
+
+#mymap {
+
+	border:1px solid red;
+
+	width: 800px;
+
+	height: 500px;
+
+}
+
+

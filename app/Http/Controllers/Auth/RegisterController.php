@@ -62,10 +62,19 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+        $userid = rand(10000000,99999999);
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'user_id' => $userid,
+            'phone' => $data['phone'],
+            //'address' => $data['address'],
+            //'address_lat' => $data['address_lat'],
+            //'address_lng' => $data['address_lng'],
+            'layanan_id' => '3',
+            //'qty' => $data['qty'],
+            'status' => '0',
         ]);
     }
 }

@@ -38,6 +38,8 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
+            // \App\Http\Middleware\EncryptCookies::class,
+            // \Illuminate\Session\Middleware\StartSession::class,
             'throttle:60,1',
             'bindings',
         ],
@@ -51,6 +53,8 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
+        'cors' => \Barryvdh\Cors\HandleCors::class,
+        'jwt.auth' => \App\Http\Middleware\VerifyJWTToken::class,
         'auth' => \Illuminate\Auth\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
